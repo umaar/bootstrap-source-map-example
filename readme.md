@@ -11,3 +11,9 @@ npm install -g less
 lessc --version #lessc 1.5.0 (LESS Compiler) [JavaScript]
 lessc --source-map=bootstrap.map less/bootstrap.less less/bootstrap.css
 ````
+
+Or:
+````
+npm install
+grunt #Checkout the Gruntfile.js to see how Source Maps are produced.
+````
